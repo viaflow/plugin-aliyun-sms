@@ -1,0 +1,27 @@
+{
+  "name": "plugin-aliyun-sms",
+  "version": "1.0.0",
+  "description": "aliyun sms for viaflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viaflow/plugin-aliyun-sms.git"
+  },
+  "keywords": [
+    "sms",
+    "aliyun",
+    "viaflow"
+  ],
+  "author": "Guo Tuo <guotuo1024@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viaflow/plugin-aliyun-sms/issues"
+  },
+  "homepage": "https://github.com/viaflow/plugin-aliyun-sms#readme",
+  "dependencies": {
+    "@alicloud/sms-sdk": "^1.1.3"
+  }
+}
