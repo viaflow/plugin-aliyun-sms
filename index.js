@@ -48,7 +48,11 @@ export const Execute = async (input) => {
             TemplateCode: input.data.TemplateCode,
             TemplateParam: input.data.TemplateParam
         })
-        return result;
+        const rst = {
+            code: true,
+            data: result,
+        };
+        return rst;
     } catch (exp) {
         return {
             code: false,
